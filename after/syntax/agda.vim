@@ -93,7 +93,11 @@ nnoremap \f i∀<ESC>
 inoremap \to →
 inoremap \l λ
 inoremap \f ∀
-
+inoremap \N ℕ
+inoremap \Z ℤ
+inoremap \e ∃
+inoremap \b ⊥
+inoremap \t ⊤
 
 " Set highlights
 highlight default link agdaTypeNames      Type
