@@ -86,6 +86,14 @@ syntax keyword agdaLets let refl
 " Link the new syntax group to the same highlight group as numeric operators
 syntax match agdaSpecialSymbols /λ\|→\|∀/
 
+nnoremap \to i→<ESC>
+nnoremap \l iλ<ESC>
+nnoremap \f i∀<ESC>
+
+inoremap \to →
+inoremap \l λ
+inoremap \f ∀
+
 
 " Set highlights
 highlight default link agdaTypeNames      Type
