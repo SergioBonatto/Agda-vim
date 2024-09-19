@@ -89,15 +89,13 @@ syntax match agdaSpecialSymbols /λ\|→\|∀/
 nnoremap \to i→<ESC>
 nnoremap \l iλ<ESC>
 nnoremap \f i∀<ESC>
+nnoremap \e i≡<ESC>
 
 inoremap \to →
 inoremap \l λ
 inoremap \f ∀
-inoremap \N ℕ
-inoremap \Z ℤ
-inoremap \e ∃
-inoremap \b ⊥
-inoremap \t ⊤
+inoremap \e ≡
+
 
 " Set highlights
 highlight default link agdaTypeNames      Type
